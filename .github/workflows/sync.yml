@@ -2,7 +2,7 @@ name: Upstream Sync
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
+    - cron: "0 * * * *" # Runs every hour
   workflow_dispatch: # Allows manual triggering
 
 permissions:
@@ -16,4 +16,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # gh repo sync is efficient: it only updates if there are new commits upstream.
+          # It won't trigger a new 'Pages' build unless the branch actually changes.
           gh repo sync pu-orfe/boris-hanin --source boris-hanin/boris-hanin.github.io --branch main
