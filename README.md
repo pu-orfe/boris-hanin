@@ -7,7 +7,7 @@ I am an Associate Professor at [Princeton ORFE](https://orfe.princeton.edu/) (an
 
 I am one of the co-organizers of the [Princeton Probability Seminar](https://www.math.princeton.edu/events/seminars/probability-seminar) and the [alg-ML seminar](https://princeton-alg-ml.github.io).
 
-I am an advsior at [Mithril](https://mithril.ai), [Logical Intelligence](https://logicalintelligence.com), and [Lumos Health](https://www.projectlumos.org).
+I am an advisor at [Mithril](https://mithril.ai), [Logical Intelligence](https://logicalintelligence.com), and [Lumos Health](https://www.projectlumos.org).
 
 **Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, and NSF grant DMS-2133806, and DARPA AIQ grant (HR001124S0029).
 
