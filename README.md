@@ -68,7 +68,6 @@ All these journals are always looking for high quality submissions on theoretica
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
 1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. (2026) [ArXiv](https://arxiv.org/abs/2605.10164)
 1. Learning Rate Transfer in Normalized Transformers, with. B. Shigida, A. Gromov. (2026) [ArXiv](https://arxiv.org/abs/2604.27077)
-1. Hyperparameter Transfer with Mixture-of-Expert Layers, with T. Jiang, B. Bordelon, C. Pehlevan. (2026) [ArXiv](https://arxiv.org/abs/2601.20205)
 1. Implicit Bias of the JKO Scheme, with P. Halmos. (2025) [ArXiv](https://arxiv.org/abs/2511.14827)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
@@ -92,6 +91,7 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
+1. Hyperparameter Transfer with Mixture-of-Expert Layers, with T. Jiang, B. Bordelon, C. Pehlevan. ICML 2026. [ArXiv](https://arxiv.org/abs/2601.20205)
 1. Don't be lazy: CompleteP enables compute-efficient deep transformers, with N. Dey, B. Zhang, L. Noci, M. Li, B. Bordelon, S. Bergsma, C. Pehlevan, J. Hestness. NeurIPS 2025. [ArXiv](https://arxiv.org/abs/2505.01618)
 1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora. ICLR 2025 [ArXiv](https://arxiv.org/abs/2410.08847)
 1. Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, I. Stoica, and J. Zou (2024). NeurIPS 2024 [ArXiv](https://arxiv.org/abs/2403.02419)
