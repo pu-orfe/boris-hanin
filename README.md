@@ -7,7 +7,7 @@ I am an Associate Professor at [Princeton ORFE](https://orfe.princeton.edu/) (an
 
 I am one of the co-organizers of the [Princeton Probability Seminar](https://www.math.princeton.edu/events/seminars/probability-seminar) and the [alg-ML seminar](https://princeton-alg-ml.github.io).
 
-I am an advisor at [Mithril](https://mithril.ai), [Logical Intelligence](https://logicalintelligence.com), and [Lumos Health](https://www.projectlumos.org).
+I am an advisor at [Mithril](https://mithril.ai), [Logical Intelligence](https://logicalintelligence.com), [Lumos Health](https://www.projectlumos.org), and [9D Labs](https://www.9dlabs.xyz).
 
 **Funding**: I am grateful to be supported by a 2024 Sloan Fellowship in Mathematics, NSF CAREER grant DMS-2143754, and NSF grant DMS-2133806, and DARPA AIQ grant (HR001124S0029).
 
@@ -65,6 +65,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1.  Hyperparameter Transfer in Graph Neural Networks, with G. DeZoort. (2026) [ArXiv](https://arxiv.org/abs/2607.05017)
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
 1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. (2026) [ArXiv](https://arxiv.org/abs/2605.10164)
