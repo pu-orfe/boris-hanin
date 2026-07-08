@@ -65,7 +65,8 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
-1.  Hyperparameter Transfer in Graph Neural Networks, with G. DeZoort. (2026) [ArXiv](https://arxiv.org/abs/2607.05017)
+1. Hyperparameter Transfer in Graph Neural Networks, with G. DeZoort. (2026) [ArXiv](https://arxiv.org/abs/2607.05017)
+1. Top Singular Value in Sum-Products of Random Matrices, with K. Huang (2026) [ArXiv](https://arxiv.org/abs/2607.04047)
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
 1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. (2026) [ArXiv](https://arxiv.org/abs/2605.10164)
