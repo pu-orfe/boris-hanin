@@ -40,8 +40,8 @@ Please see my [CV](/CV.pdf) for more information.
 - [Pierfrancesco Beneventano](https://pierbeneventano.github.io/) (Postdoc at MIT CBMM)
 - [Kaiqi Jiang](https://ece.princeton.edu/people/kaiqi-jiang) (Research Scientist, Huawei)
 - [Mufan Li](https://mufan-li.github.io/) (Assistant Professor, Waterloo Statistics)
-- [Mengxuan Yang](https://sites.google.com/view/mxyang) (Assistsnt Proffesor, Texas A&M Math)
-- [Vladimir Narovlansky](https://www.ias.edu/scholars/vladimir-narovlansky) (Assistsmt Professor, Hebrew University in Jerusalem Physics)
+- [Mengxuan Yang](https://sites.google.com/view/mxyang) (Assistant Professor, Texas A&M Math)
+- [Vladimir Narovlansky](https://www.ias.edu/scholars/vladimir-narovlansky) (Assistant Professor, Hebrew University in Jerusalem Physics)
 
 ## Professional Service
 I am an Associate Editor of
@@ -53,11 +53,16 @@ I am an Associate Editor of
 All these journals are always looking for high quality submissions on theoretical machine learning. 
 
 
+## **Teaching**
+
+**ORF 526: Probability for Modern Machine Learning.** Princeton, Fall 2026. Twenty-five lectures from Gaussians to diffusion models, assuming no measure theory. Schedule, lecture notes, and problem sets on the [course page](/prob-ml/).
+
+
 ## Short Courses
 
 1. Neural Networks for Mathematicians. University of Chicago. April 2026. [notes](/nn-notes.pdf)
 1. Statistical Physics for Neural Networks. University of Oxford. March 2025. 
-1. Mathematics Aspects of Deep Learning Theory. University of Luxembourg. June 2024. Lecture 1 [video](https://www.youtube.com/watch?v=G5W_oOnKMgc), Lecture 2 [video](https://www.youtube.com/watch?v=-Mq3_mhEaYw), Lecture 3 [video](https://www.youtube.com/watch?v=bIigKIm9B2s). Lecture Notes [pdf](/Univ__Luxembourg_Lectures_June_2024_notes.pdf)
+1. Mathematical Aspects of Deep Learning Theory. University of Luxembourg. June 2024. Lecture 1 [video](https://www.youtube.com/watch?v=G5W_oOnKMgc), Lecture 2 [video](https://www.youtube.com/watch?v=-Mq3_mhEaYw), Lecture 3 [video](https://www.youtube.com/watch?v=bIigKIm9B2s). Lecture Notes [pdf](/Univ__Luxembourg_Lectures_June_2024_notes.pdf)
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
 3. Neural Networks at Large and Infinite Width (joint with Yasaman Bahri). Les Houches Summer School on Statistical Physics of Machine Learning (France). July 2022. Lecture 1 [video](https://www.youtube.com/watch?v=mEdUi8gu3vE&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=4), Lecture 2 [video](https://www.youtube.com/watch?v=o4tDhCJTu0M&list=PLEIq5bchE3R1QYiNthdj9rJDa4TUzR-Yb&index=5), Lecture Notes [arXiv](https://arxiv.org/abs/2309.01592) [J. Stat. Mech.](https://iopscience.iop.org/article/10.1088/1742-5468/ad2dd3/pdf)
    
@@ -72,7 +77,7 @@ All these journals are always looking for high quality submissions on theoretica
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
 1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. (2026) [ArXiv](https://arxiv.org/abs/2605.10164)
-1. Learning Rate Transfer in Normalized Transformers, with. B. Shigida, A. Gromov. (2026) [ArXiv](https://arxiv.org/abs/2604.27077)
+1. Learning Rate Transfer in Normalized Transformers, with B. Shigida, A. Gromov. (2026) [ArXiv](https://arxiv.org/abs/2604.27077)
 1. Implicit Bias of the JKO Scheme, with P. Halmos. (2025) [ArXiv](https://arxiv.org/abs/2511.14827)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
@@ -84,10 +89,10 @@ All these journals are always looking for high quality submissions on theoretica
 #### **Journal Articles**
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa. Physical Review Letters 136, 067301  (2026) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Deep Nets as Hamiltonians, with M. Winer. Physical Review E 113 (1), 015303 (2025) [ArXiv](https://arxiv.org/abs/2503.23982)
-1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Pecatti. Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
+1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Peccati. Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
 1. Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies. Journal of Machine Learning Research, 25(267):1−58, 2024 [ArXiv](https://arxiv.org/abs/2204.01058)
 1. Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations, with G. DeZoort. SIAM Journal on Mathematics of Data Science, Vol. 7, No. 1 (2025) [ArXiv](https://arxiv.org/abs/2306.11668)
-1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, Proceedings of the National Acacdemy of Science, Volume 120, No. 23 (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
+1. Bayesian Interpolation with Deep Linear Networks, with A. Zlokapa, Proceedings of the National Academy of Sciences, Volume 120, No. 23 (2023) [ArXiv](https://arxiv.org/abs/2212.14457)
 8. Random Neural Networks in the Infinite Width Limit as Gaussian Processes, Annals of Applied Probability, 2023, Vol. 33, No. 6A, 4798 – 4819 [ArXiv](https://arxiv.org/abs/2107.01562)
 9. Non-asymptotic Results for Singular Values of Gaussian Matrix Products, with G. Paouris. GAFA (2021) [ArXiv](https://arxiv.org/abs/2005.08899)
 14. Products of Many Large Random Matrices and Gradients in Deep Neural Networks, with M. Nica. Communications in Mathematical Physics (2020) [ArXiv](https://arxiv.org/abs/1812.05994)
@@ -104,7 +109,7 @@ All these journals are always looking for high quality submissions on theoretica
 2. Principled Architecture-Aware Scaling of Hyperparameters, with W. Chen, J. Wu, and Z. Wang. ICLR 2024. [Arxiv](https://arxiv.org/abs/2402.17440)
 1. Maximal Initial Learning Rates in Deep ReLU Networks, with G. Iyer and D. Rolnick, ICML 2023 [ArXiv](https://arxiv.org/abs/2212.07295)
 5. Deep Architecture Connectivity Matters for Its Convergence: A Fine-Grained Analysis with W. Chen, W. Huang, X. Gong, Z. Wang, NeurIPS 2022 [ArXiv](https://arxiv.org/abs/2205.05662)
-1.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Splotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
+1.	Finite Depth and Width Corrections to the Neural Tangent Kernel, with M. Nica, Spotlight at ICLR 2020 [ArXiv](https://arxiv.org/abs/1909.05989)
 10. Deep ReLU Networks Preserve Expected Length, with R. Jeong and D. Rolnick, ICLR 2022 [ArXiv](https://arxiv.org/abs/2102.10492)
 12. How Data Augmentation affects Optimization for Linear Regression, with Y. Sun NeurIPS 2021 [ArXiv](https://arxiv.org/abs/2010.11171)
 1. Deep ReLU Networks Have Surprisingly Few Activation Patterns, with D. Rolnick, NeurIPS 2019 [ArXiv](https://arxiv.org/abs/1906.00904)
@@ -122,7 +127,7 @@ All these journals are always looking for high quality submissions on theoretica
 13. Interface Asymptotics of Wigner-Weyl Distributions for the Harmonic Oscillator, with S. Zelditch. Journal d'Analyse (2022) [ArXiv](https://arxiv.org/abs/1903.12524)
 15.	Interface Asymptotics of Eigenspace Wigner distributions for the Harmonic Oscillator, with S. Zelditch. Communications in PDE (2020) [ArXiv](https://arxiv.org/abs/1901.06438)
 22.	Level Spacings and Nodal Sets at Infinity for Radial Perturbations of the Harmonic Oscillator, with T. Beck. International Math Research Notices, 2021. [ArXiv](https://arxiv.org/abs/1708.06434)
-23.	Local Universality for Zeros and Critical Points of Monochromatic Random Waves, with Y. Canzani. Communication in Mathematical Physics, 2020. [ArXiv](https://arxiv.org/abs/1610.09438)
+23.	Local Universality for Zeros and Critical Points of Monochromatic Random Waves, with Y. Canzani. Communications in Mathematical Physics, 2020. [ArXiv](https://arxiv.org/abs/1610.09438)
 24.	Nodal Sets of Functions with Finite Vanishing Order, with T. Beck and S. Becker-Khan. Calculus of Variations and PDE (2018) [ArXiv](https://arxiv.org/abs/1708.06434)
 25.	Scaling of Harmonic Oscillator Eigenfunctions and Their Nodal Sets Around the Caustic, with S. Zelditch and P. Zhou. Communications in Mathematical Physics. Vol. 350, no. 3, pp. 1147--1183, 2017. [ArXiv](https://arxiv.org/abs/1708.06434)
 26. C^∞ Scaling Asymptotics for the Spectral Function of the Laplacian, with Y. Canzani. The Journal of Geometric Analysis (2018) [ArXiv](http://arxiv.org/abs/1602.00730)
@@ -133,9 +138,9 @@ All these journals are always looking for high quality submissions on theoretica
 
 ### **Zeros and Critical Points of Random Polynomials**
 ##### **Journal Articles**
-1. The Lemniscate Tree of a Random Polynomial, with M. Epstein and E. Lundberg. Annales Institute Henri Poincare (B), 2018. [ArXiv](https://arxiv.org/abs/1806.00521)
+1. The Lemniscate Tree of a Random Polynomial, with M. Epstein and E. Lundberg. Annales de l'Institut Henri Poincaré (B), 2018. [ArXiv](https://arxiv.org/abs/1806.00521)
 27.	Pairing of Zeros and Critical Points for Random Polynomials. Annales de l'Institut Henri Poincare (B) Probabilites et Statistiques. Volume 53, Number 3 (2017), 1498-1511. [ArXiv](https://arxiv.org/abs/1601.06417)
-30. Pairing of Zeros and Critical Points for Random Meromorphic Functions on Riemann Surfaces</b>. Mathematics Research Letters, Vol. 22 (2015), No. 1, pp. 111-140. [ArXiv](http://arxiv.org/abs/1305.6105)
+30. Pairing of Zeros and Critical Points for Random Meromorphic Functions on Riemann Surfaces</b>. Mathematical Research Letters, Vol. 22 (2015), No. 1, pp. 111-140. [ArXiv](http://arxiv.org/abs/1305.6105)
 32. Correlations and Pairing Between Zeros and Critical Points of Gaussian Random Polynomials. International Math Research Notices (2015), Vol. (2), pp. 381-421. [ArXiv](http://arxiv.org/abs/1207.4734)
 
 ### **Other**
@@ -143,4 +148,4 @@ All these journals are always looking for high quality submissions on theoretica
 1. Depth Dependence of μP Learning Rates in ReLU MLPs, with S. Jelassi, Z. Ji, S. Reddi, S. Bhojanapalli, and S. Kumar (2023) [ArXiv](https://arxiv.org/abs/2305.07810)
 1. Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions (2021)  [ArXiv](https://arxiv.org/abs/2109.12960)
 2.	Approximating Continuous Functions by ReLU Nets of Minimal Width, with M. Sellke (2017) [ArXiv](https://arxiv.org/abs/1710.11278)
-34. An Intriguing Property of the Center of Mass for Points on Quadradtic Curves and Surfaces, with L. Hanin and R. Fisher. Mathematics Maganize, v. 80, No. 5, pp. 353-362, 2007.
+34. An Intriguing Property of the Center of Mass for Points on Quadratic Curves and Surfaces, with L. Hanin and R. Fisher. Mathematics Magazine, v. 80, No. 5, pp. 353-362, 2007.
