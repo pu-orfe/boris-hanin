@@ -57,6 +57,8 @@ All these journals are always looking for high quality submissions on theoretica
 
 **ORF 526: Probability for Modern Machine Learning.** Princeton, Fall 2026. Twenty-five lectures from Gaussians to diffusion models, assuming no measure theory. Schedule, lecture notes, and problem sets on the [course page](/prob-ml/).
 
+**Informal Seminar on Deep Learning Theory.** For Princeton PhD students interested in attacking core open problems in deep learning theory. [course page](/informal-course-2026/)
+
 
 ## Short Courses
 

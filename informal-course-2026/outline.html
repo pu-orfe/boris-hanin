@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theory of Deep Learning — Fall 2026 Reading Course</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060b06;--ph:#33ff33;--dim:#25b62c;--faint:rgba(51,255,51,.22);
+  --wash:rgba(51,255,51,.07);--inv:#041004}
+*{box-sizing:border-box}
+html{font-size:19px}
+body{margin:0;background:var(--bg);color:var(--ph);
+  font-family:"VT323",ui-monospace,Menlo,Consolas,monospace;line-height:1.45;
+  text-shadow:0 0 4px rgba(51,255,51,.28)}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(0,0,0,.22) 2px 3px)}
+::selection{background:var(--ph);color:var(--inv);text-shadow:none}
+.mono{font-family:inherit}
+main{max-width:52rem;margin:0 auto;padding:2.4rem 1.25rem 5rem}
+header.course h1{font-size:2.7rem;line-height:1.05;font-weight:400;margin:0 0 .2rem;
+  letter-spacing:.01em;text-shadow:0 0 10px rgba(51,255,51,.55)}
+header.course h1::before{content:"> "}
+.sub{font-size:1.25rem;font-style:normal;color:var(--dim);margin:0 0 1.2rem}
+header.course h1::after{content:"\2588";margin-left:.35rem;color:var(--ph);
+  animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){header.course h1::after{animation:none}}
+.meta{font-size:1rem;letter-spacing:.05em;text-transform:uppercase;
+  display:flex;flex-wrap:wrap;gap:.3rem 1.7rem;padding:.45rem .7rem;
+  background:var(--ph);color:var(--inv);text-shadow:none;border:0}
+.meta b{font-weight:400;color:var(--inv)}
+p{margin:.85rem 0;font-size:1.18rem}
+a{color:var(--ph);text-decoration:none;border-bottom:1px dashed var(--dim)}
+a:hover{background:var(--ph);color:var(--inv);border-bottom:1px solid var(--ph);text-shadow:none}
+h2{font-size:1.25rem;font-family:inherit;font-weight:400;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ph);margin:2.4rem 0 .8rem;padding-top:.9rem;
+  border-top:1px solid var(--faint)}
+h2::before{content:"// ";color:var(--dim)}
+table{width:100%;border-collapse:collapse;margin-top:.4rem}
+td{vertical-align:top;padding:.55rem .5rem .55rem 0;border-top:1px solid var(--faint);
+  font-size:1.12rem}
+tr.arc td{border-top:1px solid var(--dim);padding-top:.95rem;font-family:inherit;
+  font-size:1.05rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ph);font-weight:400}
+tr.arc td::before{content:"== ";color:var(--dim)}
+tr.arc td span{color:var(--dim);text-transform:none;letter-spacing:.01em}
+td.date{white-space:nowrap;font-family:inherit;font-size:1rem;color:var(--dim);width:7rem}
+td.num{width:2.4rem;font-family:inherit;font-size:1.05rem;font-weight:400;color:var(--ph);
+  text-shadow:0 0 8px rgba(51,255,51,.6)}
+td.topic b{font-weight:400;color:var(--ph)}
+td.topic .anchor{display:block;font-size:1rem;color:var(--dim);margin-top:.1rem}
+td.topic .anchor em{font-style:normal;font-family:inherit;font-size:.92rem;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ph);margin-right:.45rem}
+td.topic .anchor em::before{content:"["}
+td.topic .anchor em::after{content:"]"}
+tr.gap td{background:var(--wash);color:var(--dim);font-size:1rem;font-style:normal;
+  border-top:1px dashed var(--dim);border-bottom:1px dashed var(--dim)}
+.flag{font-family:inherit;font-size:.95rem;color:var(--dim);letter-spacing:.04em;display:block}
+.notecols{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;
+  margin-top:.4rem}
+.notecard{border:1px solid var(--faint);border-top:1px solid var(--dim);padding:.65rem .8rem}
+.notecard .tag{font-family:inherit;font-size:.95rem;letter-spacing:.1em;color:var(--dim)}
+.notecard p{font-size:1.05rem;margin:.35rem 0 0}
+footer{margin-top:3rem;padding-top:.9rem;border-top:1px solid var(--faint);
+  font-size:1rem;color:var(--dim)}
+@media (max-width:560px){html{font-size:17px} td.date{width:5.2rem}}
+</style>
+</head>
+<body>
+<main>
+<header class="course">
+  <h1>Theory of Deep Learning</h1>
+  <div class="meta">
+    <span><b>Fall 2026</b></span>
+    <span>Thursdays 4:30–5:30&nbsp;pm</span>
+    <span>Sherrerd Hall 001</span>
+    <span>First meeting Sep 10</span>
+    <span>Boris Hanin (ORFE)</span>
+  </div>
+</header>
+
+<p>Informal seminar for PhD students with background in mathematics, physics, statistics, etc. The goal is to
+formulate core open problems at the intersection of theory and practice of deep learning.</p>
+
+<p>For current Princeton affiliates only. Email bhanin 'at' princeton.edu if you're
+interested in attending.</p>
+
+<h2>Schedule</h2>
+<table>
+  <tr class="arc"><td colspan="3">Introduction</td></tr>
+  <tr>
+    <td class="date">Thu Sep 10</td><td class="num">1</td>
+    <td class="topic"><b><a href="notes-part1-width.html#lec1">Overview</a></b>
+      <span class="anchor">what is a neural network; how it is used; the big questions of the
+      course</span></td>
+  </tr>
+
+  <tr class="arc"><td colspan="3">Scaling laws</td></tr>
+  <tr>
+    <td class="date">Thu Sep 17</td><td class="num">2</td>
+    <td class="topic"><b><a href="notes-part1-width.html#lec4">Compactify the moduli space of
+      neural networks &#8594; hyperparameter transfer</a></b>
+      <span class="anchor"><em>open</em>transfer over the token horizon; the large-data
+      regime</span></td>
+  </tr>
+  <tr>
+    <td class="date">Thu Sep 24</td><td class="num">3</td>
+    <td class="topic"><b><a href="notes-part1-width.html#scaling">High-dimensional limits of
+      SGD</a></b>
+      <span class="anchor"><em>open</em>power law exponents; optimizer design</span></td>
+  </tr>
+
+  <tr class="arc"><td colspan="3">Feature learning</td></tr>
+  <tr>
+    <td class="date">Thu Oct 1</td><td class="num">4</td>
+    <td class="topic"><b><a href="notes-part1-width.html#lec5">Near-linear windows: one
+      gradient step; Bayesian posteriors</a></b>
+      <span class="anchor"><em>open</em>what gets learned, and when</span></td>
+  </tr>
+
+  <tr class="arc"><td colspan="3">Diffusion Models</td></tr>
+  <tr>
+    <td class="date">Thu Oct 8</td><td class="num">5</td>
+    <td class="topic"><b><a href="notes-part2-diffusion.html#lec8">The score
+      Hamiltonian</a></b>
+      <span class="anchor"><em>open</em>discrete time; schedules you would actually
+      use</span></td>
+  </tr>
+  <tr>
+    <td class="date">Thu Oct 15</td><td class="num">6</td>
+    <td class="topic"><b><a href="notes-part2-diffusion.html#lec7">Sampling &#8818; score
+      estimation (Chewi et al.)</a></b>
+      <span class="anchor"><em>open</em>upper vs. lower bounds</span></td>
+  </tr>
+  <tr class="gap">
+    <td class="date">Thu Oct 22</td><td class="num"></td>
+    <td>no class — fall recess (Oct 17–25)</td>
+  </tr>
+
+  <tr class="arc"><td colspan="3">To be determined</td></tr>
+  <tr>
+    <td class="date">Thu Oct 29</td><td class="num">7</td>
+    <td class="topic"><b>TBD</b></td>
+  </tr>
+  <tr>
+    <td class="date">Thu Nov 5</td><td class="num">8</td>
+    <td class="topic"><b>TBD</b></td>
+  </tr>
+  <tr>
+    <td class="date">Thu Nov 12</td><td class="num">9</td>
+    <td class="topic"><b>TBD</b></td>
+  </tr>
+
+  <tr>
+    <td class="date">Thu Nov 19</td><td class="num"></td>
+    <td class="topic"><b>TBD</b></td>
+  </tr>
+  <tr class="gap">
+    <td class="date">Thu Nov 26</td><td class="num"></td>
+    <td>no class — Thanksgiving recess (Nov 25–29)</td>
+  </tr>
+  <tr>
+    <td class="date">Thu Dec 3</td><td class="num">10</td>
+    <td class="topic"><b>TBD</b></td>
+  </tr>
+</table>
+
+<footer> Links between files resolve when all four
+  HTML files sit in the same folder. Rendering the notes’ mathematics requires an
+  internet connection (MathJax).
+</footer>
+</main>
+</body>
+</html>
