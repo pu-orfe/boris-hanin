@@ -84,6 +84,37 @@ p{max-width:38rem}
 
 
 
+/* ---------- syllabus ---------- */
+.about{border-bottom:1px solid var(--rule); padding-bottom:3.2rem}
+.about p + p{margin-top:1rem}
+.about .sub em{color:var(--accent-ink); font-style:italic}
+.cols{display:grid; grid-template-columns:1fr 1fr; gap:2.4rem 3rem; margin-top:2.6rem}
+.col h3{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.7rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--accent);
+  font-weight:500; margin:0 0 .9rem; padding-bottom:.5rem;
+  border-bottom:1px solid var(--rule);
+}
+.row{
+  display:flex; align-items:baseline; gap:1rem;
+  padding:.42rem 0; border-bottom:1px solid var(--hair);
+}
+.row:last-child{border-bottom:none}
+.row span:first-child{flex:1; font-size:.97rem; color:var(--body)}
+.row b{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.8rem;
+  font-variant-numeric:tabular-nums; color:var(--ink); font-weight:600;
+  white-space:nowrap;
+}
+.row i{font-style:normal; color:var(--faint); font-size:.86rem}
+.note{font-size:.9rem; color:var(--muted); margin:.9rem 0 0; max-width:none}
+.note b{color:var(--body); font-weight:600}
+.footnote{margin-top:2.4rem; padding-top:1.2rem; border-top:1px solid var(--hair)}
+
+@media (max-width:640px){
+  .cols{grid-template-columns:1fr; gap:2rem}
+}
+
 /* ---------- module + sessions ---------- */
 .module{margin-top:1rem}
 .mod-head{
@@ -159,6 +190,37 @@ p{max-width:38rem}
   </div>
 </header>
 
+<section class="about">
+  <h2>The course</h2>
+  <p class="sub">A graduate probability course built out of <em>tools and examples</em> rather than a slow development of the foundations.</p>
+
+  <p>Twenty-five sessions, in two modules. Each one is organized around a technique worth owning &mdash; Lindeberg swapping, Stein&rsquo;s method, Wick&rsquo;s theorem, the resolvent, exponential tilting &mdash; and around an example that shows what the technique is for. A substantial part of that second half is modern machine learning: wide networks at initialization, ridge regression, the spectrum of a sample covariance, the geometry of random loss landscapes, stochastic gradient descent, and diffusion models.</p>
+
+  <p><b>No measure theory.</b> Nothing is assumed beyond linear algebra, multivariable calculus and an undergraduate probability course. Where a standard fact from analysis is needed &mdash; Fourier inversion, the spectral theorem &mdash; it is quoted honestly and marked as such in the notes.</p>
+
+  <div class="cols">
+    <div class="col">
+      <h3>How it works</h3>
+      <div class="row"><span>Homework, assigned every session</span><b>not graded</b></div>
+      <div class="row"><span>Weekly quiz, 15 min, in class</span><b>20%</b></div>
+      <div class="row"><span>Midterm, in class</span><b>30%</b></div>
+      <div class="row"><span>Final</span><b>50%</b></div>
+      <p class="note"><b>The lowest quiz is dropped.</b> Both examinations are closed book.</p>
+    </div>
+
+    <div class="col">
+      <h3>Grades</h3>
+      <div class="row"><span>A</span><i>90&ndash;100</i></div>
+      <div class="row"><span>B</span><i>80&ndash;89</i></div>
+      <div class="row"><span>C</span><i>70&ndash;79</i></div>
+      <div class="row"><span>D</span><i>60&ndash;69</i></div>
+      <div class="row"><span>F</span><i>0&ndash;59</i></div>
+    </div>
+  </div>
+
+  <p class="note footnote"><b>On the homework and the quizzes.</b> The exercises live inside the lecture notes, typed <b>A</b>, <b>B</b> and <b>C</b>: A checks that nothing was missed, B asks whether the argument was understood, and C withholds exactly one idea. They are not collected and not graded &mdash; use whatever help you like, including an AI assistant, and if you are short of time do the C problems. The weekly quiz is where that work is cashed in: closed book, by hand, drawn from the week&rsquo;s assigned exercises. The homework is the exploration layer; the quiz is the verification layer, and it is the only thing that needs policing.</p>
+</section>
+
 <section class="module">
   <div class="mod-head">
     <span class="mod-title">Module I · Gaussians</span>
@@ -166,13 +228,13 @@ p{max-width:38rem}
   </div>
 
   <div class="ses"><span class="ses-n">1</span><span class="ses-d">Sep 2</span><details class="ses-x"><summary>Gaussians: definition and linear structure</summary><ul><li>Definition by the Fourier transform, and why not the density</li><li>Linear images, existence, rotational invariance</li><li>Uncorrelated and jointly Gaussian implies independent</li><li>Maximum entropy at fixed covariance</li></ul></details><span class="ses-m"><a href="lectures-1-2.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">2</span><span class="ses-d">Sep 7</span><details class="ses-x"><summary>Gaussians: conditioning as projection</summary><ul><li>Conditional expectation as orthogonal projection</li><li>The Schur complement, derived</li><li>Bayesian posteriors and ridge regression</li><li>Gaussian process regression</li></ul></details><span class="ses-m"><a href="lectures-1-2.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">3</span><span class="ses-d">Sep 9</span><details class="ses-x"><summary>CLT: Lindeberg's method</summary><ul><li>Maximum entropy, recalled; why a Gaussian at all</li><li>Lindeberg&#39;s swapping argument, proved</li><li>The Lindeberg condition as the Gaussian/Poisson boundary</li><li>NNGP: a wide network at initialization</li></ul></details><span class="ses-m"><a href="lectures-3-4.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">2</span><span class="ses-d">Sep 7</span><details class="ses-x"><summary>Gaussians: conditioning as projection</summary><ul><li>Conditional expectation as orthogonal projection</li><li>The Schur complement, derived</li><li>Tower property and total variance, read off the picture</li><li>Bayesian posteriors and ridge regression; Tweedie&#39;s formula</li></ul></details><span class="ses-m"><a href="lectures-1-2.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">3</span><span class="ses-d">Sep 9</span><details class="ses-x"><summary>CLT: Lindeberg's method</summary><ul><li>Maximum entropy, recalled; why a Gaussian at all</li><li>What convergence in distribution means, and why smooth test functions</li><li>Lindeberg&#39;s swapping argument, proved</li><li>Lindeberg&#39;s and Feller&#39;s conditions; the CLT for triangular arrays</li><li>Records: why random search improves only log n times, and why the Gaussian/Poisson dial is s_n</li></ul></details><span class="ses-m"><a href="lectures-3-4.pdf">notes</a></span></div>
   <div class="ses"><span class="ses-n">4</span><span class="ses-d">Sep 14</span><details class="ses-x"><summary>Stein's method</summary><ul><li>The Gaussian characterized by an identity, not a limit</li><li>Stein&#39;s equation; the CLT with a rate</li><li>Chen–Stein for Poisson; dependence</li></ul></details><span class="ses-m"><a href="lectures-3-4.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">5</span><span class="ses-d">Sep 16</span><details class="ses-x"><summary>Wick's theorem</summary><ul><li>Every moment of a Gaussian vector, as a sum over pair partitions</li><li>Proved from the characteristic function &#8212; no density, no invertibility</li><li>The moment&#8211;cumulant formula over all partitions</li></ul></details><span class="ses-m"><a href="lectures-5-6.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">6</span><span class="ses-d">Sep 21</span><details class="ses-x"><summary>The semicircle law, twice</summary><ul><li>Traces as moments; tr M&#8308; by Wick, and the crossing pairing</li><li>Non-crossing pairings, Catalan numbers, the limit</li><li>What the moment method cannot do</li><li>Stieltjes transform; Schur complement; the self-consistent equation</li></ul></details><span class="ses-m"><a href="lectures-5-6.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">7</span><span class="ses-d">Sep 23</span><details class="ses-x"><summary>Cumulants: distance from Gaussian</summary><ul><li>Cumulants; vanishing beyond the second characterizes the Gaussian</li><li>Additivity, and scaling under normalized sums</li><li>Rates for the CLT; cumulants as a perturbation parameter</li></ul></details></div>
-  <div class="ses"><span class="ses-n">8</span><span class="ses-d">Sep 28</span><details class="ses-x"><summary>Hubbard&#8211;Stratonovich, Laplace, and Curie&#8211;Weiss</summary><ul><li>The Gaussian integral read backwards: decoupling a quadratic interaction</li><li>Laplace&#39;s method</li><li>The Curie&#8211;Weiss free energy; m = tanh(&#946;m)</li><li>A phase transition at &#946; = 1, derived from scratch</li></ul></details></div>
+  <div class="ses"><span class="ses-n">5</span><span class="ses-d">Sep 16</span><details class="ses-x"><summary>Wick's theorem, and a Gaussian random matrix</summary><ul><li>Every moment of a Gaussian vector, as a sum over pair partitions</li><li>Proved from the characteristic function &#8212; no density, no invertibility</li><li>The Gaussian Wigner matrix</li><li>&#8214;Mu&#8214;&#178; for a fixed direction: its mean and variance, by Wick</li><li>Cumulants, in the reading</li></ul></details><span class="ses-m"><a href="lectures-5-7.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">6</span><span class="ses-d">Sep 21</span><details class="ses-x"><summary>The semicircle law by counting paths</summary><ul><li>The theorem, and the strategy: moments are traces</li><li>E tr M&#178; and E tr M&#8308; by hand</li><li>Matrix powers as sums over paths; from a path to a pair partition</li><li>Only tree paths survive; non-crossing pairings and the Catalan numbers</li><li>The fluctuations are small</li></ul></details><span class="ses-m"><a href="lectures-5-7.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">7</span><span class="ses-d">Sep 23</span><details class="ses-x"><summary>The semicircle law by the Stieltjes transform</summary><ul><li>The empirical spectral measure and its mean</li><li>The Stieltjes transform and the resolvent</li><li>Schur complement and the self-consistent equation m&#178; + zm + 1 = 0</li><li>The density, read off from m</li></ul></details><span class="ses-m"><a href="lectures-5-7.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">8</span><span class="ses-d">Sep 28</span><details class="ses-x"><summary>The Weyl chamber formula and the log gas</summary><ul><li>The exact joint density of the eigenvalues</li><li>The Vandermonde determinant as a repulsion between levels</li><li>Eigenvalues as a gas of charges in a confining potential</li><li>The semicircle law as the equilibrium measure</li></ul></details></div>
   <div class="ses"><span class="ses-n">9</span><span class="ses-d">Sep 30</span><details class="ses-x"><summary>Gaussian processes: the geometric picture</summary><ul><li>A process on an index set T as a curve in a Hilbert space</li><li>Existence from any positive semidefinite kernel</li><li>The Karhunen–Loève expansion</li></ul></details></div>
   <div class="ses"><span class="ses-n">10</span><span class="ses-d">Oct 5</span><details class="ses-x"><summary>Gaussian processes: the canonical metric and maxima</summary><ul><li>The canonical pseudometric is distance in the Hilbert space</li><li>Suprema as support functions; Gaussian width</li><li>Sudakov and Dudley, stated</li></ul></details></div>
   <div class="ses"><span class="ses-n">11</span><span class="ses-d">Oct 7</span><details class="ses-x"><summary>Kac–Rice and zero sets</summary><ul><li>The area formula, invoked without proof</li><li>Rice&#39;s formula for stationary processes</li><li>Random trigonometric polynomials; Kac polynomials</li></ul></details></div>
