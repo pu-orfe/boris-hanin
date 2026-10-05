@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Probability for Modern Machine Learning</title>
-<meta name="description" content="Graduate probability course, Princeton Fall 2026 — 26 sessions from Gaussians to diffusion models.">
+<meta name="description" content="Graduate probability course, Princeton Fall 2026 — 24 sessions from Gaussians to diffusion models.">
 <style>*,*::before,*::after{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0}img,svg{max-width:100%}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -184,7 +184,7 @@ p{max-width:38rem}
 
   <div class="vitals">
     <span><b>MW 10:40–12:00</b></span>
-    <span><b>26</b> sessions</span>
+    <span><b>24</b> sessions</span>
     <span>Sep 2 – Dec 7</span>
     <span>No measure theory</span>
   </div>
@@ -194,7 +194,7 @@ p{max-width:38rem}
   <h2>The course</h2>
   <p class="sub">A graduate probability course built out of <em>tools and examples</em> rather than a slow development of the foundations.</p>
 
-  <p>Twenty-six sessions, in two modules. Each one is organized around a technique worth owning &mdash; Lindeberg swapping, Stein&rsquo;s method, Wick&rsquo;s theorem, the resolvent, exponential tilting &mdash; and around an example that shows what the technique is for. A substantial part of that second half is modern machine learning: wide networks at initialization, ridge regression, the spectrum of a sample covariance, the geometry of random loss landscapes, stochastic gradient descent, and diffusion models.</p>
+  <p>Twenty-four sessions, in two modules. Each one is organized around a technique worth owning &mdash; Lindeberg swapping, Stein&rsquo;s method, Wick&rsquo;s theorem, the resolvent, exponential tilting &mdash; and around an example that shows what the technique is for. A substantial part of that second half is modern machine learning: wide networks at initialization, ridge regression, the spectrum of a sample covariance, the geometry of random loss landscapes, stochastic gradient descent, and diffusion models.</p>
 
   <p><b>No measure theory.</b> Nothing is assumed beyond linear algebra, multivariable calculus and an undergraduate probability course. Where a standard fact from analysis is needed &mdash; Fourier inversion, the spectral theorem &mdash; it is quoted honestly and marked as such in the notes.</p>
 
@@ -224,7 +224,7 @@ p{max-width:38rem}
 <section class="module">
   <div class="mod-head">
     <span class="mod-title">Module I · Gaussians</span>
-    <span class="mod-meta">14 sessions · Sep 2 – Oct 21</span>
+    <span class="mod-meta">12 sessions · Sep 2 – Oct 14</span>
   </div>
 
   <div class="ses"><span class="ses-n">1</span><span class="ses-d">Sep 2</span><details class="ses-x"><summary>Gaussians: definition and linear structure</summary><ul><li>Definition by the Fourier transform, and why not the density</li><li>Linear images, existence, rotational invariance</li><li>Uncorrelated and jointly Gaussian implies independent</li><li>Maximum entropy at fixed covariance</li></ul></details><span class="ses-m"><a href="lectures-1-2.pdf">notes</a></span></div>
@@ -235,12 +235,10 @@ p{max-width:38rem}
   <div class="ses"><span class="ses-n">6</span><span class="ses-d">Sep 23</span><details class="ses-x"><summary>The semicircle law by counting paths</summary><ul><li>The theorem, and the strategy: moments are traces</li><li>E tr M&#178; and E tr M&#8308; by hand</li><li>Matrix powers as sums over paths; from a path to a pair partition</li><li>Only tree paths survive; non-crossing pairings and the Catalan numbers</li><li>The fluctuations are small</li></ul></details><span class="ses-m"><a href="lectures-5-8.pdf">notes</a></span></div>
   <div class="ses"><span class="ses-n">7</span><span class="ses-d">Sep 28</span><details class="ses-x"><summary>The Stieltjes transform</summary><ul><li>The resolvent and m<sub>N</sub>(z) = (1/N) tr (M &minus; zI)<sup>&minus;1</sup></li><li>Eigenvalues are the poles: counting them in an interval by a contour integral</li><li>What to compute: lim<sub>&epsilon;&rarr;0</sub> lim<sub>N&rarr;&infin;</sub> (1/&pi;) Im m<sub>N</sub>(x + i&epsilon;), and why the limits come in that order</li><li>Near z = &infin; the transform is the generating function of the traces</li></ul></details><span class="ses-m"><a href="lectures-5-8.pdf">notes</a></span></div>
   <div class="ses"><span class="ses-n">8</span><span class="ses-d">Sep 30</span><details class="ses-x"><summary>The semicircle law by the Stieltjes transform</summary><ul><li>Schur complement: one diagonal entry of a resolvent through a smaller resolvent</li><li>The self-consistent equation m&#178; + zm + 1 = 0, with explicit error bounds</li><li>The trace concentrates: a Poincar&eacute; inequality and a cancellation of N&#39;s</li><li>Stability of the equation, and the density read off the unit circle</li></ul></details><span class="ses-m"><a href="lectures-5-8.pdf">notes</a></span></div>
-  <div class="ses"><span class="ses-n">9</span><span class="ses-d">Oct 5</span><details class="ses-x"><summary>The Weyl chamber formula and the log gas</summary><ul><li>The exact joint density of the eigenvalues</li><li>The Vandermonde determinant as a repulsion between levels</li><li>Eigenvalues as a gas of charges in a confining potential</li><li>The semicircle law as the equilibrium measure</li></ul></details></div>
-  <div class="ses"><span class="ses-n">10</span><span class="ses-d">Oct 7</span><details class="ses-x"><summary>Gaussian processes: the geometric picture</summary><ul><li>A process on an index set T as a curve in a Hilbert space</li><li>Existence from any positive semidefinite kernel</li><li>The Karhunen–Loève expansion</li></ul></details></div>
-  <div class="ses"><span class="ses-n">11</span><span class="ses-d">Oct 12</span><details class="ses-x"><summary>Gaussian processes: the canonical metric and maxima</summary><ul><li>The canonical pseudometric is distance in the Hilbert space</li><li>Suprema as support functions; Gaussian width</li><li>Sudakov and Dudley, stated</li></ul></details></div>
-  <div class="ses"><span class="ses-n">12</span><span class="ses-d">Oct 14</span><details class="ses-x"><summary>Kac–Rice and zero sets</summary><ul><li>The area formula, invoked without proof</li><li>Rice&#39;s formula for stationary processes</li><li>Random trigonometric polynomials; Kac polynomials</li></ul></details></div>
-  <div class="ses"><span class="ses-n">13</span><span class="ses-d">Oct 19</span><details class="ses-x"><summary>Random landscapes: counting critical points</summary><ul><li>Conditioned on ∇f = 0, the Hessian is a GOE matrix</li><li>log|det| as a spectral integral</li><li>Exponentially many, overwhelmingly saddles</li></ul></details></div>
-  <div class="ses"><span class="ses-n">14</span><span class="ses-d">Oct 21</span><details class="ses-x"><summary>Midterm examination</summary><ul><li>Sessions 1–13, closed book</li></ul></details></div>
+  <div class="ses"><span class="ses-n">9</span><span class="ses-d">Oct 5</span><details class="ses-x"><summary>Gaussian processes: definition, feature maps, and maxima</summary><ul><li>A Gaussian process is a Gaussian vector indexed by a set; mean function and covariance kernel</li><li>Feature maps: a process is a curve in a Hilbert space seen through one standard Gaussian &mdash; and that settles existence</li><li>Examples: Mu for a Gaussian matrix M and u on the sphere; Brownian motion as a process; the wide-network kernel</li><li>The canonical metric</li><li>Maxima: &radic;(2 log n) by the union bound, sharp for independent coordinates; the supremum as a support function and the Gaussian width of the ball, the cube and the &#8467;&#185; ball</li></ul></details><span class="ses-m"><a href="lectures-9-11.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">10</span><span class="ses-d">Oct 7</span><details class="ses-x"><summary>Gaussian processes: suprema and chaining</summary><ul><li>Independent Gaussians reach &radic;(2 log n)</li><li>Covering numbers; Dudley&#39;s inequality stated, applied to the sphere, and proved by chaining</li><li>Sudakov&#39;s lower bound, stated</li></ul></details></div>
+  <div class="ses"><span class="ses-n">11</span><span class="ses-d">Oct 12</span><details class="ses-x"><summary>Gaussian processes: comparison</summary><ul><li>Sudakov&ndash;Fernique and Slepian by Gaussian interpolation</li><li>The operator norm of a Gaussian matrix: E&#8214;M&#8214; &le; &radic;N + &radic;d</li><li>Sudakov&#39;s lower bound, proved; what the midterm covers</li></ul></details></div>
+  <div class="ses"><span class="ses-n">12</span><span class="ses-d">Oct 14</span><details class="ses-x"><summary>Midterm examination</summary><ul><li>Sessions 1&ndash;11, closed book, in class</li></ul></details></div>
 </section>
 
 <section class="module">
