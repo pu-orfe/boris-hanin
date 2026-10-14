@@ -75,7 +75,6 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
-1. Hyperparameter Transfer in Graph Neural Networks, with G. DeZoort. (2026) [ArXiv](https://arxiv.org/abs/2607.05017)
 1. Top Singular Value in Sum-Products of Random Matrices, with K. Huang (2026) [ArXiv](https://arxiv.org/abs/2607.04047)
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
@@ -101,6 +100,7 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
+1. Hyperparameter Transfer in Graph Neural Networks, with G. DeZoort. Learning on Graphs Conference (2026) [ArXiv](https://arxiv.org/abs/2607.05017)
 1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. NeurIPS 2026 [ArXiv](https://arxiv.org/abs/2605.10164)
 1. Learning Rate Transfer in Normalized Transformers, with B. Shigida, A. Gromov. NeurIPS 2026. [ArXiv](https://arxiv.org/abs/2604.27077)
 1. Hyperparameter Transfer with Mixture-of-Expert Layers, with T. Jiang, B. Bordelon, C. Pehlevan. ICML 2026. [ArXiv](https://arxiv.org/abs/2601.20205)
