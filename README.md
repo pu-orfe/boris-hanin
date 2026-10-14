@@ -62,7 +62,8 @@ All these journals are always looking for high quality submissions on theoretica
 
 ## Short Courses
 
-1. Neural Networks for Mathematicians. University of Chicago. April 2026. [notes](/nn-notes.pdf)
+1. Statistical Physics of Diffusion Models. Lake Como School on Statistical Physics of Deep Learning. June 2026
+2. Neural Networks for Mathematicians. University of Chicago. April 2026. [notes](/nn-notes.pdf)
 1. Statistical Physics for Neural Networks. University of Oxford. March 2025. 
 1. Mathematical Aspects of Deep Learning Theory. University of Luxembourg. June 2024. Lecture 1 [video](https://www.youtube.com/watch?v=G5W_oOnKMgc), Lecture 2 [video](https://www.youtube.com/watch?v=-Mq3_mhEaYw), Lecture 3 [video](https://www.youtube.com/watch?v=bIigKIm9B2s). Lecture Notes [pdf](/Univ__Luxembourg_Lectures_June_2024_notes.pdf)
 2. Neural Networks and Gaussian Processes. Tor Vergata (Rome). Jan 2023. [notes](http://www.mat.uniroma2.it/~rds/Slides/Hanin.pdf); Lecture 1 [video](https://www.youtube.com/watch?v=k3hVE_rx0mE&t), Lecture 2 [video](https://www.youtube.com/watch?v=qANuMTwvsx8), Lecture 3 [video](https://www.youtube.com/watch?v=xQ6fpaDDD-g)
@@ -78,8 +79,6 @@ All these journals are always looking for high quality submissions on theoretica
 1. Top Singular Value in Sum-Products of Random Matrices, with K. Huang (2026) [ArXiv](https://arxiv.org/abs/2607.04047)
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
-1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. (2026) [ArXiv](https://arxiv.org/abs/2605.10164)
-1. Learning Rate Transfer in Normalized Transformers, with B. Shigida, A. Gromov. (2026) [ArXiv](https://arxiv.org/abs/2604.27077)
 1. Implicit Bias of the JKO Scheme, with P. Halmos. (2025) [ArXiv](https://arxiv.org/abs/2511.14827)
 1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Optimizing Model Selection for Compound AI Systems, with L. Chen, J. Q. Davis, P. Bailis, M. Zaharia, J. Zou, I. Stoica (2025) [ArXiv](https://arxiv.org/abs/2502.14815)
@@ -103,6 +102,8 @@ All these journals are always looking for high quality submissions on theoretica
 22.	Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations. Mathematics 2019, 7(10), 992 (Special Issue on Computational Mathematics, Algorithms, and Data Processing) [ArXiv](https://arxiv.org/abs/1708.02691)
 
 #### **Conference Articles**
+1. Hyperparameter Transfer for Dense Associative Memories, with R. Holtzman, D. Krotov. NeurIPS 2026 [ArXiv](https://arxiv.org/abs/2605.10164)
+1. Learning Rate Transfer in Normalized Transformers, with B. Shigida, A. Gromov. NeurIPS 2026. [ArXiv](https://arxiv.org/abs/2604.27077)
 1. Hyperparameter Transfer with Mixture-of-Expert Layers, with T. Jiang, B. Bordelon, C. Pehlevan. ICML 2026. [ArXiv](https://arxiv.org/abs/2601.20205)
 1. Don't be lazy: CompleteP enables compute-efficient deep transformers, with N. Dey, B. Zhang, L. Noci, M. Li, B. Bordelon, S. Bergsma, C. Pehlevan, J. Hestness. NeurIPS 2025. [ArXiv](https://arxiv.org/abs/2505.01618)
 1. Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization, with N. Razin, S. Malladi, A. Bhaskar, D. Chen, S. Arora. ICLR 2025 [ArXiv](https://arxiv.org/abs/2410.08847)
