@@ -81,13 +81,13 @@ All these journals are always looking for high quality submissions on theoretica
 1. The Score Hamiltonian: Mapping Diffusion Models to Adiabatic Transport, with P. Halmos. (2026) [ArXiv](https://arxiv.org/abs/2606.05217)
 1. Bayesian Inference with Shaped Deep Non-linear MLPs, with T. Jiang. (2026) [ArXiv](https://arxiv.org/abs/2605.30860)
 1. Implicit Bias of the JKO Scheme, with P. Halmos. (2025) [ArXiv](https://arxiv.org/abs/2511.14827)
-1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. (2025) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. BARE: Combining Base and Instruction-Tuned Language Models for Better Synthetic Data Generation, with A. Zhu, P. Asawa, J. Q. Davis, L. Chen, I. Stoica, J. Gonzalez, M. Zaharia (2025) [ArXiv](https://arxiv.org/abs/2502.01697)
 1. Networks of Networks: Complexity Class Principles Applied to Compound AI Systems Design, with J. Q. Davis, L. Chen, P. Bailis, I. Stoica, M. Zaharia (2024) [ArXiv](https://arxiv.org/abs/2407.16831)
 
 
 
 #### **Journal Articles**
+1. Global Universality of Singular Values in Products of Many Large Random Matrices, with T. Jiang. In Press: Probability Theory and Related Fields (2026) [ArXiv](https://arxiv.org/abs/2503.07872)
 1. Bayesian Inference with Deep Weakly Nonlinear Networks, with A. Zlokapa. Physical Review Letters 136, 067301  (2026) [ArXiv](https://arxiv.org/abs/2405.16630)
 1. Deep Nets as Hamiltonians, with M. Winer. Physical Review E 113 (1), 015303 (2025) [ArXiv](https://arxiv.org/abs/2503.23982)
 1. Quantitative CLTs in Deep Neural Networks, with S. Favaro, D. Marinucci, I. Nourdin, and G. Peccati. Probability Theory and Related Fields, Volume 191, pages 933–977, (2025) [ArXiv](https://arxiv.org/abs/2307.06092)
