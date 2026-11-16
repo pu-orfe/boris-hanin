@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Probability for Modern Machine Learning</title>
-<meta name="description" content="Graduate probability course, Princeton Fall 2026 — 24 sessions from Gaussians to diffusion models.">
+<meta name="description" content="Graduate probability course, Princeton Fall 2026 — 22 sessions from Gaussians to diffusion models.">
 <style>*,*::before,*::after{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0}img,svg{max-width:100%}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -186,8 +186,8 @@ p{max-width:38rem}
 
   <div class="vitals">
     <span><b>MW 10:40–12:00</b></span>
-    <span><b>24</b> sessions</span>
-    <span>Sep 2 – Dec 7</span>
+    <span><b>22</b> sessions</span>
+    <span>Sep 2 – Dec 2</span>
     <span>No measure theory</span>
   </div>
 </header>
@@ -196,7 +196,7 @@ p{max-width:38rem}
   <h2>The course</h2>
   <p class="sub">A graduate probability course built out of <em>tools and examples</em> rather than a slow development of the foundations.</p>
 
-  <p>Twenty-four sessions, in two modules. Each one is organized around a technique worth owning &mdash; Lindeberg swapping, Stein&rsquo;s method, Wick&rsquo;s theorem, the resolvent, exponential tilting &mdash; and around an example that shows what the technique is for. A substantial part of that second half is modern machine learning: wide networks at initialization, kernel regression, the spectrum of a Gaussian random matrix, the maxima of Gaussian processes, stochastic gradient descent, and diffusion models.</p>
+  <p>Twenty-two sessions, in two modules. Each one is organized around a technique worth owning &mdash; Lindeberg swapping, Stein&rsquo;s method, Wick&rsquo;s theorem, the resolvent, Gaussian integration by parts &mdash; and around an example that shows what the technique is for. A substantial part of that second half is modern machine learning: wide networks at initialization, kernel regression, the spectrum of a Gaussian random matrix, the maxima of Gaussian processes, stochastic gradient descent, and diffusion models.</p>
 
   <p><b>No measure theory.</b> Nothing is assumed beyond linear algebra, multivariable calculus and an undergraduate probability course. Where a standard fact from analysis is needed &mdash; Fourier inversion, the spectral theorem &mdash; it is quoted honestly and marked as such in the notes.</p>
 
@@ -257,8 +257,8 @@ p{max-width:38rem}
 
 <section class="module">
   <div class="mod-head">
-    <span class="mod-title">Module II &middot; Dynamics, Deviations, Diffusion</span>
-    <span class="mod-meta">12 sessions &middot; Oct 26 &ndash; Dec 7</span>
+    <span class="mod-title">Module II &middot; Dynamics and Diffusion</span>
+    <span class="mod-meta">10 sessions &middot; Oct 26 &ndash; Dec 2</span>
   </div>
   <p class="note">Notes for each block are linked as the block begins; solutions are posted once the block is finished. The handwritten notes continue in <a href="hand-notes.pdf">hand-notes.pdf</a>.</p>
 
@@ -268,12 +268,11 @@ p{max-width:38rem}
   <div class="ses"><span class="ses-n">4</span><span class="ses-d">Nov 4</span><details class="ses-x"><summary>Martingales: concentration</summary><ul><li>Azuma&ndash;Hoeffding; McDiarmid and the generalization gap</li><li>Ville&#39;s inequality</li><li>Freedman&#39;s inequality: variance-adaptive and uniform in time</li></ul></details><span class="ses-m"><a href="lectures-12-15.pdf">notes</a><i>·</i><a href="solutions-12-15.pdf">solutions</a></span></div>
   <div class="ses"><span class="ses-n">5</span><span class="ses-d">Nov 9</span><details class="ses-x"><summary>SGD: stochastic approximation</summary><ul><li>The one-step recursion; constant steps and the noise floor</li><li>The Robbins&ndash;Monro rate 1/n; least mean squares</li><li>The Robbins&ndash;Monro conditions and the ODE picture</li></ul></details><span class="ses-m"><a href="lectures-16-17.pdf">notes</a><i>·</i><a href="solutions-16-17.pdf">solutions</a></span></div>
   <div class="ses"><span class="ses-n">6</span><span class="ses-d">Nov 11</span><details class="ses-x"><summary>SGD: fluctuations and averaging</summary><ul><li>Asymptotic normality of the iterates by the martingale CLT</li><li>Polyak&ndash;Ruppert averaging attains the efficient variance</li><li>High-probability bounds along the trajectory by Freedman</li></ul></details><span class="ses-m"><a href="lectures-16-17.pdf">notes</a><i>·</i><a href="solutions-16-17.pdf">solutions</a></span></div>
-  <div class="ses"><span class="ses-n">7</span><span class="ses-d">Nov 16</span><details class="ses-x"><summary>Large deviations: energy versus entropy</summary><ul><li>Cram&eacute;r&#39;s theorem by exponential tilting</li><li>The rate function as a competition</li></ul></details></div>
-  <div class="ses"><span class="ses-n">8</span><span class="ses-d">Nov 18</span><details class="ses-x"><summary>Large deviations: Sanov&#39;s theorem</summary><ul><li>The method of types</li><li>Relative entropy as the rate function</li><li>The contraction principle</li></ul></details></div>
-  <div class="ses"><span class="ses-n">9</span><span class="ses-d">Nov 23</span><details class="ses-x"><summary>Large deviations: Varadhan and examples</summary><ul><li>Varadhan&#39;s lemma and the Gibbs variational principle</li><li>Curie&ndash;Weiss and its phase transition</li><li>Hypothesis testing; escape from a basin</li></ul></details></div>
-  <div class="ses"><span class="ses-n">10</span><span class="ses-d">Nov 30</span><details class="ses-x"><summary>Diffusion models: the forward process</summary><ul><li>Noising as a Gaussian channel</li><li>Tweedie&#39;s formula from integration by parts</li><li>Denoising as score estimation</li></ul></details></div>
-  <div class="ses"><span class="ses-n">11</span><span class="ses-d">Dec 2</span><details class="ses-x"><summary>Diffusion models: score matching</summary><ul><li>The reverse chain</li><li>Denoising score matching</li><li>The DDPM objective</li></ul></details></div>
-  <div class="ses"><span class="ses-n">12</span><span class="ses-d">Dec 7</span><details class="ses-x"><summary>Diffusion models: the PDE picture</summary><ul><li>Fokker&ndash;Planck and the heat equation</li><li>The Gaussian as fundamental solution</li><li>Time reversal; the variational bound</li></ul></details></div>
+  <div class="ses"><span class="ses-n">7</span><span class="ses-d">Nov 16</span><details class="ses-x"><summary>Langevin dynamics: sampling by noisy gradient descent</summary><ul><li>The unadjusted Langevin algorithm; integration by parts against e<sup>&minus;U</sup> and why e<sup>&minus;U</sup> is the equilibrium</li><li>The Gaussian target exactly; SGD as sampling from a Gibbs measure</li><li>Contraction by coupling; convergence, and the discretization bias</li><li>What fails without strong convexity, and how smoothing fixes it</li></ul></details><span class="ses-m"><a href="lectures-18-21.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">8</span><span class="ses-d">Nov 18</span><details class="ses-x"><summary>Diffusion models: the forward process and Tweedie&#39;s formula</summary><ul><li>Noising as Langevin dynamics for a quadratic potential; a Gaussian channel applied repeatedly</li><li>Tweedie&#39;s formula from integration by parts</li><li>Denoising as score estimation</li></ul></details><span class="ses-m"><a href="lectures-18-21.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">&ndash;</span><span class="ses-d">Nov 23</span><details class="ses-x"><summary>No class</summary><ul><li>Thanksgiving week</li></ul></details></div>
+  <div class="ses"><span class="ses-n">9</span><span class="ses-d">Nov 30</span><details class="ses-x"><summary>Diffusion models: reversal and score matching</summary><ul><li>The reverse of a Gaussian step, and the score as its drift</li><li>Denoising score matching; the DDPM objective</li><li>Ancestral sampling</li></ul></details><span class="ses-m"><a href="lectures-18-21.pdf">notes</a></span></div>
+  <div class="ses"><span class="ses-n">10</span><span class="ses-d">Dec 2</span><details class="ses-x"><summary>Diffusion models: guarantees, the variational bound, and the close</summary><ul><li>The chain rule for relative entropy and the error of the sampler</li><li>The ELBO</li><li>The heat equation and the Gaussian as its kernel; relative entropy across the course</li></ul></details><span class="ses-m"><a href="lectures-18-21.pdf">notes</a></span></div>
 </section>
 
 </div>
