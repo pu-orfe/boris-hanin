@@ -75,6 +75,7 @@ All these journals are always looking for high quality submissions on theoretica
 ### **Deep Learning**
 
 #### **Preprints**
+1. A new algorithmic approach for finding flat minima: critically damped Polyak stepsizes, with F. Caporali and J. Altschuler [ArXiv](https://arxiv.org/abs/2611.26475)
 1. Investigating the Early Signatures of Feature Learning in Deep Linear Networks, with S. Bhandarkar [ArXiv](https://arxiv.org/abs/2610.37834)
 1. Early learning in large residual networks, with V. Narovlansky (2026) [ArXiv](https://arxiv.org/abs/2610.31783)
 1. Top Singular Value in Sum-Products of Random Matrices, with K. Huang (2026) [ArXiv](https://arxiv.org/abs/2607.04047)
