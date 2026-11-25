@@ -6,16 +6,31 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write
+  contents: write # push the synced commits
+  actions: read # read earlier runs to count consecutive failures
+  checks: read # read soft-failure annotations on earlier runs
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          sparse-checkout: .github/scripts
+          persist-credentials: false
+
+      # gh repo sync only updates if there are new commits upstream, so it won't
+      # trigger a new Pages build unless the branch actually changes.
+      # Retries transient GitHub errors, and only fails the run (which sends a
+      # notification) after SYNC_FAILURE_THRESHOLD consecutive failed runs.
       - name: Sync with upstream
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # gh repo sync is efficient: it only updates if there are new commits upstream.
-          # It won't trigger a new 'Pages' build unless the branch actually changes.
-          gh repo sync pu-orfe/boris-hanin --source boris-hanin/boris-hanin.github.io --branch main
+          SYNC_REPO: pu-orfe/boris-hanin
+          SYNC_SOURCE: boris-hanin/boris-hanin.github.io
+          SYNC_BRANCH: main
+          SYNC_ATTEMPTS: "3"
+          SYNC_RETRY_DELAYS: "15 45"
+          SYNC_FAILURE_THRESHOLD: "3"
+        run: .github/scripts/sync-upstream.sh
